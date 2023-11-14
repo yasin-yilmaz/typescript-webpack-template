@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"target": "ES2016",
+		"module": "ES2015",
+		"rootDir": "./src",
+		"outDir": "./dist",
+		"removeComments": true,
+		"sourceMap": true,
+		"noEmitOnError": false,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"skipLibCheck": true,
+		"noImplicitAny": true,
+		//
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		//
+		"moduleResolution": "node",
+
+		// js check
+		"allowJs": true,
+		"checkJs": true
+	},
+	"include": ["src"]
+}
